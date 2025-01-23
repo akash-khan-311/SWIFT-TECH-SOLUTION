@@ -5,10 +5,22 @@ const Banner = () => {
     <section className="banner h-screen flex items-center justify-start">
       <div className="flex  container mx-auto">
         <div className=" w-1/2">
-          <h2 className="text-4xl md:text-5xl lg:text-7xl text-white capitalize">
+          <h2
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            className="text-4xl md:text-5xl lg:text-7xl text-white capitalize"
+          >
             Your ideas, make it <span className="text-[#66FCF1]">happen</span>
           </h2>
-          <p className="text-white mt-4 text-lg w-full md:w-1/2 ">
+          <p
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            className="text-white mt-4 text-lg w-full md:w-1/2 "
+          >
             The sky was cloudless and of a deep dark blue. The spectacle before
             us was indeed sublime.
           </p>
