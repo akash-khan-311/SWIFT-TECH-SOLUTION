@@ -4,18 +4,23 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #0d1224;
 }
 
 .banner {
   background: linear-gradient(
       to left,
-      rgba(0, 0, 0, 0.164) -40%,
-      rgb(0, 0, 0) 100%
+      rgba(0, 0, 0, 0.164) 10%,
+      rgb(0, 0, 0) 95%
     ),
     url("../../public/images/Banner-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+section {
+  padding: 80px 0;
 }
 
 @layer base {

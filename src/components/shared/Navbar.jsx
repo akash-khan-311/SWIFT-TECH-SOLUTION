@@ -34,10 +34,12 @@ const Navbar = () => {
     <nav
       id={"home"}
       className={`${
-        header ? " w-full backdrop-blur-2xl bg-black/70 border-b " : ""
-      }transition-all durration-500 z-[999] block w-full py-2 mx-auto text-white fixed top-0  `}
+        header
+          ? " w-full backdrop-blur-2xl bg-black/70 border-b border-[#66FCF1] "
+          : ""
+      }transition-all durration-500 ease-in-out  z-[999] block w-full py-2 mx-auto text-white fixed top-0 pt-4 `}
     >
-      <div className="container mx-auto flex items-center justify-between mt-7">
+      <div className="container mx-auto flex items-center justify-between ">
         <Link href="/" className="text-2xl font-medium">
           <span className="text-[#66FCF1]">SWIFT </span>
           <span className="text-white">TECH SOLUTION</span>
