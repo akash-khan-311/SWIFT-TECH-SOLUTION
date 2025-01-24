@@ -5,6 +5,19 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #0d1224;
+  overflow-x: hidden;
+}
+div#radix-\:R3d7\: {
+  background: #0d1224;
+  border: none;
+}
+
+button.absolute.right-4.top-4.rounded-sm.opacity-70.ring-offset-white.transition-opacity.hover\:opacity-100.focus\:outline-none.focus\:ring-2.focus\:ring-zinc-950.focus\:ring-offset-2.disabled\:pointer-events-none.data-\[state\=open\]\:bg-zinc-100.dark\:ring-offset-zinc-950.dark\:focus\:ring-zinc-300.dark\:data-\[state\=open\]\:bg-zinc-800 {
+  background: #ffffff;
+}
+
+.flex.flex-col.gap-4.mt-8 a {
+  color: #ffffff;
 }
 
 .banner {
@@ -21,6 +34,14 @@ body {
 
 section {
   padding: 80px 0;
+}
+
+#team {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../public/images/teambg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 @layer base {

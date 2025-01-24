@@ -37,9 +37,9 @@ const Navbar = () => {
         header
           ? " w-full backdrop-blur-2xl bg-black/70 border-b border-[#66FCF1] "
           : ""
-      }transition-all durration-500 ease-in-out  z-[999] block w-full py-2 mx-auto text-white fixed top-0 pt-4 `}
+      }transition-all durration-500 ease-in-out  z-[9] block w-full py-2 mx-auto text-white fixed top-0 pt-4 `}
     >
-      <div className="container mx-auto flex items-center justify-between ">
+      <div className="container mx-auto px-3 flex items-center justify-between ">
         <Link href="/" className="text-2xl font-medium">
           <span className="text-[#66FCF1]">SWIFT </span>
           <span className="text-white">TECH SOLUTION</span>
@@ -76,7 +76,7 @@ const Navbar = () => {
 
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
-            <button className="md:hidden text-gray-600 hover:text-gray-900">
+            <button className="md:hidden hover:text-[#ffffff] text-[#66FCF1]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6"
@@ -117,7 +117,7 @@ const Navbar = () => {
               )}
               <Button
                 variant="outline"
-                className="mt-4 border-[#66FCF1] text-[#66FCF1] hover:bg-[#66FCF1] hover:text-white"
+                className="mt-4 border-[#66FCF1] font-bold hover:bg-[#66FCF1] "
                 onClick={() => {
                   setIsOpen(false);
                   scrollToSection("contact");
