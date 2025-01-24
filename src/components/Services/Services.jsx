@@ -2,7 +2,7 @@ import SectionTitle from "../shared/SectionTitle";
 import { SmartphoneIcon as AndroidLogo, PenIcon as PenNib } from "lucide-react";
 const Services = () => {
   return (
-    <section>
+    <section id="services">
       <SectionTitle
         label={"Our Services"}
         title={"Find out our services"}

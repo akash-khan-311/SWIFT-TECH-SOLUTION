@@ -39,7 +39,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section>
+    <section id="testimonials">
       <SectionTitle
         label={"Testimonials"}
         title={"Words from satisfied clients"}

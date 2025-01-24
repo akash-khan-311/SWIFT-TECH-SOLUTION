@@ -48,7 +48,7 @@ const Projects = () => {
     },
   ];
   return (
-    <section>
+    <section id="project">
       <SectionTitle
         label={"Our Projects"}
         title={"People lie, our works don't"}

@@ -20,7 +20,6 @@ export default function Home() {
       <div className="container mx-auto px-3 md:px-2 lg:px-0">
         <Contact />
       </div>
-      <Footer />
     </>
   );
 }

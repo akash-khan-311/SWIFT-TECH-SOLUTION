@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 
 const Banner = () => {
   return (
-    <section className="banner h-screen flex items-center justify-start">
+    <section id="/" className="banner h-screen flex items-center justify-start">
       <div className="flex  container mx-auto">
         <div className="w-full md:w-1/2">
           <h2

@@ -8,11 +8,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [header, setHeader] = useState(false);
   const navLinks = [
-    { href: "/#home", label: "Home" },
-    { href: "/#about", label: "About" },
+    { href: "/", label: "Home" },
     { href: "/#services", label: "Services" },
     { href: "/#project", label: "Project" },
-    { href: "/#blog", label: "Blog" },
+    { href: "/#testimonials", label: "Testimonials" },
+    { href: "/#team", label: "Team" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   const scrollHandler = () => {
@@ -45,13 +46,13 @@ const Navbar = () => {
           <span className="text-white">TECH SOLUTION</span>
         </Link>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-5">
           {navLinks.map((link) =>
             link.scroll ? (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href.substring(1))}
-                className="text-gray-100 hover:text-gray-900 transition-colors"
+                className="text-gray-100 hover:text-gray-900 transition-colors "
               >
                 {link.label}
               </button>
@@ -59,7 +60,7 @@ const Navbar = () => {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-100 hover:text-[#66FCF1] uppercase transition-colors"
+                className="text-gray-100 hover:text-[#66FCF1] text-sm uppercase transition-colors"
               >
                 {link.label}
               </Link>
@@ -67,7 +68,7 @@ const Navbar = () => {
           )}
           <Button
             variant="outline"
-            className="ml-4 border-[#66FCF1] text-[#000] hover:bg-[#66FCF1]"
+            className="ml-4 border-[#66FCF1] text-[#000]  font-bold hover:bg-[#66FCF1]"
             onClick={() => scrollToSection("contact")}
           >
             Contact Us
